@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style.css">
     <title>Estudio Web</title>
 </head>
 <body>
-    <div id="header" style="background-color: blue; ">
-        <h3>Artículos</h3>
-        <h3>Acerca</h3>
-        <h3>Contacto</h3>
+    <div class="navbar">
+        <a href="./Error_404/contruccion.html">Artículos</a>
+        <a href="./Error_404/contruccion.html">Acerca</a>
+        <a href="./Error_404/contruccion.html">Contacto</a>
     </div>
 
-    <div id="main_photo" style="background-color: yellow; ">
-        <img src="#" alt="Inserte foto aqui">
+    <div id="main_photo">
+        <img src="./img/main/sanrafael-mendoza-med.jpg" title="Foto San Rafael" alt="Foto San Rafael">
         <h1>Bievenidos</h1>
     </div>
 
-    <div id="description" style="background-color: orange;">
+    <div id="description">
         <p>
             El objetivo de ésta página es poder prácticar y empezar
             a desarrollar un portafolio junto a lo aprendido en el tiempo
@@ -33,7 +34,7 @@
         <br>
         <p>
             Además de una sección de preguntas y repuestas que podemos 
-            ir creando juntos a través de el Bot de telegram.
+            ir creando juntos a través de el Bot de telegram (En construcción)
         </p>
         <br>
         <p>
@@ -41,22 +42,17 @@
         </p>
     </div>
 
-    <div id="quick_access">
-
+    <div class="quick_access" style="display: flex; width: 100%; justify-content: center;">
+        <div>
+            <h3>Repositorio de la página</h3>
+            <button><a href="https://github.com/Ramirez-L/PaginaWebUTN" target="_blank">Click Aquí</a></button>
+        </div>
     </div>
 
-    <div id="footer" style="background-color: aqua;">
-        <div id="technology_used">
-            Página simple con HTML y CSS
-        </div>
-
-        <div id="date">
-            Año 2022
-        </div>
-
-        <div id="nice_message">
-            No esperes ver un cambio. Si no haces nada diferente
-        </div>
+    <div class="footer" style="background-color: rgb(65, 61, 61); color: beige;">
+        <p>Página simple con HTML y CSS</p> 
+        <p>Año 2022</p>
+        <p>No esperes ver un cambio. Si no haces nada diferente</p>
     </div>
 
 </body>
